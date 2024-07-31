@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surprise for You</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="caption">Choose an option to see the world in different resolutions</h1>
+        <select id="resolution">
+            <option value="" disabled selected>Select an option</option>
+            <option value="144">144p</option>
+            <option value="360" class="locked">360p</option>
+            <option value="480" class="locked">480p</option>
+            <option value="720" class="locked">720p</option>
+            <option value="1080" class="locked">1080p</option>
+        </select>
+        <div id="image-container">
+            <img id="earth-image" src="" alt="Earth">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
