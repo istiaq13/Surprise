@@ -42,6 +42,6 @@ document.getElementById('resolution').addEventListener('change', function() {
         }
     } else {
         // Show appropriate image for other resolutions
-        img.src = `C:\\Users\\acer\\Downloads\\${resolution}p.jpeg`;
+        img.src = `./img\\${resolution}p.jpeg`;
     }
 });
